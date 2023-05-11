@@ -1,0 +1,142 @@
+/* comfortaa-300 - cyrillic_latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 300;
+    src: url('../fonts/comfortaa-v40-cyrillic_latin/comfortaa-v40-cyrillic_latin-300.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/comfortaa-v40-cyrillic_latin/comfortaa-v40-cyrillic_latin-300.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/comfortaa-v40-cyrillic_latin/comfortaa-v40-cyrillic_latin-300.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../fonts/comfortaa-v40-cyrillic_latin/comfortaa-v40-cyrillic_latin-300.woff') format('woff'), /* Modern Browsers */
+    url('../fonts/comfortaa-v40-cyrillic_latin/comfortaa-v40-cyrillic_latin-300.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/comfortaa-v40-cyrillic_latin/comfortaa-v40-cyrillic_latin-300.svg#Comfortaa') format('svg'); /* Legacy iOS */
+}
+
+/* comfortaa-regular - cyrillic_latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/comfortaa-v40-cyrillic_latin/comfortaa-v40-cyrillic_latin-regular.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/comfortaa-v40-cyrillic_latin/comfortaa-v40-cyrillic_latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/comfortaa-v40-cyrillic_latin/comfortaa-v40-cyrillic_latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../fonts/comfortaa-v40-cyrillic_latin/comfortaa-v40-cyrillic_latin-regular.woff') format('woff'), /* Modern Browsers */
+    url('../fonts/comfortaa-v40-cyrillic_latin/comfortaa-v40-cyrillic_latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/comfortaa-v40-cyrillic_latin/comfortaa-v40-cyrillic_latin-regular.svg#Comfortaa') format('svg'); /* Legacy iOS */
+}
+
+/* comfortaa-700 - cyrillic_latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/comfortaa-v40-cyrillic_latin/comfortaa-v40-cyrillic_latin-700.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/comfortaa-v40-cyrillic_latin/comfortaa-v40-cyrillic_latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/comfortaa-v40-cyrillic_latin/comfortaa-v40-cyrillic_latin-700.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../fonts/comfortaa-v40-cyrillic_latin/comfortaa-v40-cyrillic_latin-700.woff') format('woff'), /* Modern Browsers */
+    url('../fonts/comfortaa-v40-cyrillic_latin/comfortaa-v40-cyrillic_latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/comfortaa-v40-cyrillic_latin/comfortaa-v40-cyrillic_latin-700.svg#Comfortaa') format('svg'); /* Legacy iOS */
+}
+
+
+body {
+    background: whitesmoke;
+    color: black;
+    font-family: "Comfortaa", sans-serif;
+    padding: 0 12.5%;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    padding-top: 17px;
+}
+
+hr{
+    color: gainsboro;
+    margin-top: 8px;
+}
+.Top_menu{
+    width: 100%;
+}
+.Top_menu ul {
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /*align-items: center;*/
+    /*height: 100%;*/
+}
+
+.Top_menu a:visited {
+    color: black;
+}
+
+.Top_menu a:hover {
+    color: deeppink;
+}
+.Top_menu a{
+    text-decoration: none;
+}
+.Top_menu li {
+    list-style-type: none;
+    text-align: center;
+}
+
+.resume{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    width: 100%;
+    padding-right: 15px;
+    margin-top: 1rem;
+}
+.resume table{
+    width: 100%;
+}
+.resume img{
+    height: 600px;
+}
+
+@media screen and (max-width: 991px) {
+    .resume img {
+        max-width: 90%;
+    }
+}
+
+.menu ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.menu a:visited{
+    color: black;
+}
+.menu a:hover{
+    color: deeppink;
+}
+.menu a{
+    text-decoration: none;
+}
+.menu li{
+    list-style-type: none;
+}
+
+.menu {
+    width: 100%;
+
+}
+.contacts{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.contacts span{
+    margin: 5px 0;
+}
